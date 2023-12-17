@@ -1,0 +1,16 @@
+// functions.h
+#ifndef FUNCTIONS_H
+#define FUNCTIONS_H
+const int dictionarySize = 100;
+// ХРАНИЛИЩЕ СЛОВ
+char* dectionary(
+	int num,	// номер слова в хранилище
+	bool lag);	// язык если true англ, иначе рус
+
+void removal();
+
+void conclusion();
+
+void timer();
+
+#endif
